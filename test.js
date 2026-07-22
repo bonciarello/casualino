@@ -16,7 +16,7 @@ const html = readFileSync(resolve(__dirname, 'index.html'), 'utf-8');
 /* ── FIXTURE ── */
 function createDOM() {
   const dom = new JSDOM(html, {
-    url: 'https://cristianporco.it/app/casualino/',
+    url: 'https://github.com/bonciarello/casualino/',
     runScripts: 'dangerously',
     resources: 'usable',
     pretendToBeVisual: true
